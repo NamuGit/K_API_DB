@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activity.DetailsScreen"
+        android:orientation="vertical"
+
+        >
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:orientation="vertical"
+
+            >
+
+<!--            <androidx.recyclerview.widget.RecyclerView-->
+<!--                        android:id="@+id/details_recyclerView"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_margin="5dp"-->
+<!--                        android:background="@color/Offwhite"-->
+<!--                        android:padding="5dp"/>-->
+
+
+
+
+<!--android:layout_below="@+id/details_recyclerView"-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="5dp"
+                    android:padding="2dp"
+                    android:background="@drawable/custom_box"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_margin="2dp"
+                        >
+
+
+                        <TextView
+                            android:id="@+id/name"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="Name -"
+                            android:gravity="center"
+                            android:textSize="16sp"
+                            android:layout_weight="1"
+                            android:textColor="@color/black_tint"
+
+                            />
+
+
+                        <TextView
+                            android:id="@+id/rocket_name"
+                            android:layout_width="0dp"
+                            android:layout_weight="2"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="Name"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_margin="2dp">
+
+
+                        <TextView
+                            android:id="@+id/active"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="Active -"
+
+                            android:layout_weight="1"
+                            android:textColor="@color/black_tint"
+                            android:gravity="center"
+                            android:textSize="16sp"
+                            />
+
+
+                        <TextView
+                            android:id="@+id/rocket_Active"
+                            android:layout_width="0dp"
+                            android:layout_weight="2"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="Name"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            />
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_margin="2dp">
+
+
+                        <TextView
+                            android:id="@+id/Height"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="Height -"
+                            android:layout_weight="1"
+                            android:textColor="@color/black_tint"
+                            android:gravity="center"
+                            android:textSize="16sp"
+                            />
+
+
+                        <TextView
+                            android:id="@+id/rocket_Height"
+                            android:layout_width="0dp"
+                            android:layout_weight="2"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="Name"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            />
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_margin="2dp">
+
+
+                        <TextView
+                            android:id="@+id/Diameter"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="Diameter -"
+                            android:layout_weight="1"
+                            android:textColor="@color/black_tint"
+                            android:gravity="center"
+                            android:textSize="16sp"
+                            />
+
+
+                        <TextView
+                            android:id="@+id/rocket_Diameter"
+                            android:layout_width="0dp"
+                            android:layout_weight="2"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="Name"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            />
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_margin="2dp">
+
+
+                        <TextView
+                            android:id="@+id/Cost_per_Launch"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="Cost per lauch -"
+                            android:layout_weight="1"
+                            android:textColor="@color/black_tint"
+                            android:gravity="center"
+                            android:textSize="16sp"
+                            />
+
+
+                        <TextView
+                            android:id="@+id/rocket_Cost_per_Launch"
+                            android:layout_width="0dp"
+                            android:layout_weight="2"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="Name"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            />
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_margin="2dp">
+
+
+                        <TextView
+                            android:id="@+id/Success"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="Success rate -"
+                            android:layout_weight="1"
+                            android:textColor="@color/black_tint"
+                            android:gravity="center"
+                            android:textSize="16sp"
+                            />
+
+
+                        <TextView
+                            android:id="@+id/rocket_Success"
+                            android:layout_width="0dp"
+                            android:layout_weight="2"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="Name"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            />
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_margin="2dp">
+
+
+                        <TextView
+                            android:id="@+id/discription"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="Discription -"
+                            android:layout_weight="1"
+                            android:textColor="@color/black_tint"
+                            android:gravity="center"
+                            android:textSize="16sp"
+                            />
+
+
+                        <TextView
+                            android:id="@+id/rocket_Desciption"
+                            android:layout_width="0dp"
+                            android:layout_weight="2"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="Name"
+                            android:textStyle="italic"
+                            android:textColor="@color/black"
+                            android:textSize="18sp"
+                            />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_margin="2dp">
+
+
+                        <TextView
+                            android:id="@+id/Wiki"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="Wiki How??.."
+                            android:layout_weight="1"
+                            android:textColor="@color/black_tint"
+                            android:gravity="center"
+                            android:textSize="16sp"
+                            />
+
+
+                        <TextView
+                            android:id="@+id/rocket_Wiki"
+                            android:layout_width="0dp"
+                            android:layout_weight="2"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="Name"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            />
+
+
+                    </LinearLayout>
+
+
+
+
+
+                </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+</layout>

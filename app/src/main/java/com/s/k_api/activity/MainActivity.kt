@@ -30,8 +30,8 @@ class MainActivity : AppCompatActivity() {
         val recyclerView = binding.firstRecyclerView
 
         lateinit var viewModel: SpaceViewModel
-         val retroInstance = RetrofitHelper.getAPIInstance().create(RetroAPIService::class.java)  // API instance
-         val dbInstance = RocketDBHelper.getDBInstance(this)                               // DB instance
+        val retroInstance = RetrofitHelper.getAPIInstance().create(RetroAPIService::class.java)  // API instance
+        val dbInstance = RocketDBHelper.getDBInstance(this)                               // DB instance
         val spaceRepository = SpaceRepository(dbInstance,retroInstance,applicationContext)        // Repo
 
 

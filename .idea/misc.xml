@@ -3,7 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Namrata/Flutter/K_API/app/src/main/res/layout/activity_details_screen.xml" value="0.23541666666666666" />
         <entry key="..\:/Namrata/Flutter/K_API/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/Namrata/Flutter/K_API/app/src/main/res/layout/custom_box.xml" value="0.23541666666666666" />
+        <entry key="..\:/Namrata/Flutter/K_API/app/src/main/res/layout/details_view.xml" value="0.23541666666666666" />
         <entry key="..\:/Namrata/Flutter/K_API/app/src/main/res/layout/firstview.xml" value="0.1" />
       </map>
     </option>
